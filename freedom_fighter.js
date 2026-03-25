@@ -3,7 +3,7 @@ let pics = document.getElementById("nelson_mandela");
 let counter = document.getElementById("counter");
 let message = document.getElementById("message");
 let count = 0; 
-const maxFavourites = 6; // Maximum number of images allowed in favourites
+const maxFavourites = 6;
 
 // This function toggles images between main section and favourites, and updates counter
 function toggleFavourite(img) {
